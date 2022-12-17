@@ -1,3 +1,5 @@
+#Az első laravel feladat amit saját magam, írt utasítás alapján csináltam meg.
+
 #Feladat:
 
 Hasonlóan egy webáruházhoz, hozz létre MySQL-ben egy termékeket tartalmazó táblát.

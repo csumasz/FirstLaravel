@@ -4,8 +4,6 @@ Hasonlóan egy webáruházhoz, hozz létre MySQL-ben egy termékeket tartalmazó
 
 MySQL
 host localhost
-user: teszt
-pass: teszt
 db:   feladat
 
 Feltölteni elég csak 3-4 sorral, a termékek tetszőlegesen választhatóak. Minden cikknek legyen egyedi azonosítója, neve, készlete és ára.
@@ -18,4 +16,3 @@ A kosár tartlamát tárolni kell MySQL-ben.
 
 Kosár tartalma letölthető legyen CSV formátumban.
 
-Rendelkezésre álló idő: 1 óra.

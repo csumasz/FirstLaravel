@@ -1,0 +1,21 @@
+.fruit{
+    border: 1px solid #000 ;
+    margin: 2px !important;
+}
+.piece{
+    width: 40px;
+}
+.toCard{
+    border: 1px solid #000;
+    border-radius: 3px;
+    color:#000;
+    min-width: 80px;
+    min-height: 30px;
+    text-align: center;
+    padding-top: 5px;
+    margin: 5px ;
+}
+.mymessage{
+    background-color: green;
+
+}

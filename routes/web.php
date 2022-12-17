@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\fruitController;
+use App\Http\Controllers\cardController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +18,14 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/fruit', function () {
+    return view('listendb');
+});
+
+Route::post('/store', [fruitController::class, 'store']);
+
+Route::post('/card', [cardController::class, 'store']);
+
+
+
+?>
